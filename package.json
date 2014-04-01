@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "repository": "https://github.com/ha107642/whiteboard-server",
+  "author": "Mikael Svens, Henrik Alnestig",
+  "license": "BSD",
+  "dependencies": {},
+  "devDependencies": {}
+}
