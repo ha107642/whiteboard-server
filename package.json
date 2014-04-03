@@ -9,6 +9,8 @@
   "repository": "https://github.com/ha107642/whiteboard-server",
   "author": "Mikael Svens, Henrik Alnestig",
   "license": "BSD",
-  "dependencies": {},
+  "dependencies": {
+    "moment": "~2.5.1"
+  },
   "devDependencies": {}
 }
