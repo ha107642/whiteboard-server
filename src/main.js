@@ -9,7 +9,11 @@ var current_id = 0;
 function readShape(data) {
 	var shape = {};
 	var requested_id = data.readUInt32BE(2);
-	shape.id = current_id++;
+	if (!shapes[requested_id] && requested_id !== current_id)
+		shape.id = requested_id;
+	else
+		shape.id = current_id++;
+
 	shape.thickness = data[6]; 
 	shape.color = [data[7], data[8], data[9], data[10]];
 	var count = data.readUInt32BE(11);
